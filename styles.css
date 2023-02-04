@@ -82,8 +82,48 @@ main{
     padding: 40px;
     margin: auto;
 }
- /* HERO */
+ /* Hero */
 
+ .Hero{
+    width: 100%;
+    background-color: #0b72ad;
+ }
 
- 
+ .Hero .carrusel{
+    width: 400%;
+    background-color: chocolate;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 32px;
+    transition: all 500ms ease;
+    transform: translate(-25%);
+ }
+
+ .Hero .img{
+    width: calc(100%/4);
+    background-color: chartreuse;
+ }
+
+ .Hero .puntos{
+    width: 100%;
+    background-color: darkred;
+    padding: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+ }
+
+ .Hero .punto{
+    width: 32px;
+    height: 32px;
+    background-color: darkmagenta;
+
+ }
+
+ .Hero .punto.activo{
+    background-color: aqua;
+ }
  /* Experience */
