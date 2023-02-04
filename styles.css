@@ -9,7 +9,7 @@
 body{
     background: #F5F5F5;
 }
-
+/* Nav-bar*/
 header{
     height: 100px;
 }
@@ -75,3 +75,15 @@ header{
 .activeparts_NAV3{
     transform: rotate(-45deg) translate(-3.8px, 2.3px);
 }
+
+main{
+    max-width: 1200px;
+    height: calc(100vh+800px);
+    padding: 40px;
+    margin: auto;
+}
+ /* HERO */
+
+
+ 
+ /* Experience */
