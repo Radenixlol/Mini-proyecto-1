@@ -7,15 +7,21 @@
 }
 
 body{
-    background: #F5F5F5;
+    background-image: linear-gradient(135deg, #38A2D6, #234ba1,#1c4192, #151775, #3c1263, #581255, #551138);
+    background-size: 400% 300%;
+    background-repeat: no-repeat;
+    animation: animacion 10s ease infinite;
+    /*height: 5000px;*/
 }
+
 /* Nav-bar*/
 header{
     height: 100px;
 }
 
 .header{
-    max-width: 1200px;
+    background-color: rgb(58, 15, 78);
+    width: 100%;
     height: 100%;
     margin: auto;
     padding: 40px;
@@ -23,10 +29,19 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: sans-serif;
+}
+
+.logo{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 20px;
 }
 
 .menu nav ul{
     display: flex;
+    justify-content: space-around;
 }
 
 .elements{
@@ -38,28 +53,30 @@ header{
 .elements a{
     font-size: 16px;
     text-decoration: none;
-    color: black;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 1px;
     transition: opacity 300ms;
 }
 
 .NAV{
     height: 30px;
     width: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     cursor: pointer;
+}
+
+#NAV{
+    display: none;
 }
 
 .Parts{
     display: block;
     width: 100%;
     height: 2px;
-    background-color: brown;
+    background-color: rgb(7, 5, 5);
     margin-top: 6.002px;
     transform-origin: 0px 100%;
-    transition: all 500ms;
+    transition: all 250ms;
 }
 
 .activeparts_NAV1{
@@ -87,3 +104,63 @@ main{
 
  
  /* Experience */
+
+ @keyframes animacion{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+ }
+
+ @media (max-width: 1024px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .links{
+        opacity: 0;
+        transform: translateX(100%);
+        position: absolute;
+        right: 0px;
+        height: 87.2vh;
+        top: 12.8vh;
+        flex-direction: column;
+        background-color: rgb(58, 15, 78);
+        display: flex;
+        align-items: center;
+        width: 50%;
+        transition: transform 500ms ease-in;
+    }
+
+    .elements{
+        opacity: 0;
+    }
+
+    #NAV{
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+ }
+
+.menuactive{
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+@keyframes navlinkfrade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
