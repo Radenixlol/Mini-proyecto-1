@@ -7,6 +7,10 @@
     font-family: sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     background-image: linear-gradient(135deg, #38A2D6, #234ba1,#1c4192, #151775, #3c1263, #581255, #551138);
     background-size: 400% 300%;
@@ -34,8 +38,9 @@ header{
 }
 
 .logo{
-    color: #FFFFFF;
+    color: #cfcbcb;
     text-transform: uppercase;
+    font-weight: 400;
     letter-spacing: 1.5px;
     font-size: 20px;
 }
@@ -100,6 +105,41 @@ main{
     padding: 40px;
     margin: auto;
 }
+
+/* Inicio */
+
+.inicio{
+  height: 100vh;
+}
+
+.cajita{
+  max-width: 1200px;
+  height: 100vh;
+  margin: auto;
+  columns: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cajita p{
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.cajita h2{
+  font-size: 55px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.cajita h2 span{
+  color: rgb(12, 14, 12);
+}
+
  /* Hero */
 
  .slide-contenedor{
