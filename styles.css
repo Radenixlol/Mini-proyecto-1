@@ -270,23 +270,11 @@ main{
   margin-top: 30px;
 }
 
+/*About Me*/
 
-@keyframes fade {
-    from {opacity: .4;}
-    to{opacity:1;}
-}
+/*Skills*/
 
- @keyframes animacion{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
- }
+/*Contact Me*/
 
  @media (max-width: 1024px) {
     body{
@@ -334,4 +322,21 @@ main{
         opacity: 1;
         transform: translateX(0px);
     }
+}
+
+@keyframes fade {
+  from {opacity: .4;}
+  to{opacity:1;}
+}
+
+@keyframes animacion{
+  0%{
+      background-position: 0% 50%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0% 50%;
+  }
 }
