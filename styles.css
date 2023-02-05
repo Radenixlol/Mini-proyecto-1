@@ -340,3 +340,63 @@ main{
       background-position: 0% 50%;
   }
 }
+ /* About Me*/
+
+ .About{
+  margin: auto;
+  max-width: 1200px;
+  padding: 100px 15px;
+  display: flex;
+ }
+
+ .minephoto{
+  max-width: 400px;
+  margin-right: 80px;
+ }
+
+ .minephoto img{
+  padding: 20px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #F5F5F5;
+ }
+
+ .me{
+  margin: 0 40px;
+ }
+
+ .titulo-about{
+  font-size: 22px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgb(190, 186, 179);
+  text-decoration-thickness: 5px;
+ }
+
+ .me h2{
+  font-size: 34px;
+  font-weight: bold;
+  margin: 20px 0;
+  letter-spacing: 2px;
+ }
+
+ .me h2 span{
+  color: rgb(12, 14, 12);
+ }
+
+ .me h3{
+  font-size: 18px;
+  font-weight:  500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+ }
+
+ .me p{
+  font-size: 14px;
+  line-height: 25px;
+  color: darkgrey; 
+  margin-bottom: 12px;
+}
+
