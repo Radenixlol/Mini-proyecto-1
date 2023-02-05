@@ -1,57 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>C.V. - Roy Martin</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <div class="header">
-            <div class="logo">
-                <img src="" alt="">
-            </div>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li class="elements"><a href="#">Home</a></li>
-                        <li class="elements"><a href="#">Hero</a></li>
-                        <li class="elements"><a href="#">Experience</a></li>
-                        <li class="elements"><a href="#">About Me</a></li>
-                        <li class="elements"><a href="#">Skills</a></li>
-                        <li class="elements"><a href="#">Contact Me</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="NAV" id="NAV">
-                <span class="Parts" id="parts_NAV1"></span>
-                <span class="Parts" id="parts_NAV2"></span>
-                <span class="Parts" id="parts_NAV3"></span> 
-            </div>
+      <div class="header">
+        <div class="logo">
+          <img src="" alt="" />
         </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li class="elements"><a href="#">Home</a></li>
+              <li class="elements"><a href="#">Hero</a></li>
+              <li class="elements"><a href="#">Experience</a></li>
+              <li class="elements"><a href="#">About Me</a></li>
+              <li class="elements"><a href="#">Skills</a></li>
+              <li class="elements"><a href="#">Contact Me</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="NAV" id="NAV">
+          <span class="Parts" id="parts_NAV1"></span>
+          <span class="Parts" id="parts_NAV2"></span>
+          <span class="Parts" id="parts_NAV3"></span>
+        </div>
+      </div>
     </header>
     <main>
-        <div class="Hero">
-            <h1>Bienvenid@ a mi C.V. online</h1>
-            <div class="carrusel">
-                
-            </div>
-        </div>
-        <div class="Experience">
-
-        </div>
-        <div class="About">
-
-        </div>
-        <div class="Skills">
-
-        </div>
-        <div class="Contact">
-
-        </div>
+      <div class="Hero">
+        <h1>Bienvenid@ a mi C.V. online</h1>
+        <div class="carrusel"></div>
+      </div>
+      <div class="Experience">
+        <section class="exp">
+          <article class="work">
+            <h4 class="titulo">Proyecto de Java Universitario</h4>
+            <h5>Tecnologías usadas:</h5>
+            <ul class="techs">
+              <li class="tech">Java</li>
+            </ul>
+            <p class="date"><strong>Fecha:</strong> 05/07/2022</p>
+          </article>
+          <figure class="img_pyt">
+            <img
+              src="https://1000marcas.net/wp-content/uploads/2020/11/Java-logo.png"
+              alt="Java"
+              class="prt"
+            />
+            <figcaption>
+              <a
+                href="https://github.com/Radenixlol/Proyecto-2-Java-MartinRoy-UrdanetaSantiago"
+                class="proyect"
+                >Repositorio de Github</a
+              >
+            </figcaption>
+          </figure>
+        </section>
+        <section class="exp">
+          <article class="work">
+            <h4 class="titulo">Stardew Valley</h4>
+            <h5>Tecnologías usadas:</h5>
+            <ul class="techs">
+              <li class="tech">C#</li>
+              <li class="tech">XNA Framework</li>
+              <li class="tech">Propellerhead Reason</li>
+              <li class="tech">Paint.NET</li>
+            </ul>
+            <p class="date"><strong>Fecha:</strong> 26/02/2016</p>
+          </article>
+          <figure class="img_pyt">
+            <img
+              src="https://stardewvalley.net/wp-content/uploads/2017/12/main_logo.png"
+              alt="Stadew Valley"
+              class="prt"
+            />
+            <figcaption>
+              <a href="https://www.stardewvalley.net/" class="proyect"
+                >Página de Stardew Valley</a
+              >
+            </figcaption>
+          </figure>
+        </section>
+        <section class="exp">
+          <article class="work">
+            <h4 class="titulo">Minecraft</h4>
+            <h5>Tecnologías usadas:</h5>
+            <ul class="techs">
+              <li class="tech">Java</li>
+              <li class="tech">C++</li>
+            </ul>
+            <p class="date"><strong>Fecha:</strong> 18/11/2011</p>
+          </article>
+          <figure class="img_pyt">
+            <img
+              src="https://www.minecraft.net/content/dam/games/minecraft/logos/logo-minecraft.svg"
+              alt="Minecraft"
+              class="prt"
+            />
+            <figcaption>
+              <a href="https://www.minecraft.net/es-es" class="proyect">
+                Página de Minecraft</a
+              >
+            </figcaption>
+          </figure>
+        </section>
+      </div>
+      <div class="About"></div>
+      <div class="Skills"></div>
+      <div class="Contact"></div>
     </main>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
