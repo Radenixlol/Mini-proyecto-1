@@ -214,6 +214,63 @@ main{
 
 /* Experience */
 
+.exp{
+  background-color: #e7e7e7;
+  width: 100%;
+  display: flex;
+  align-items:flex-start;
+  border-width: 10px;
+  border-color: black;
+}
+
+ .work{
+  font-family: sans-serif;
+  width: 70%;
+  background-color: #e7e7e7;
+  padding: 20px;
+  align-content: center;
+ }
+
+.img_pyt{
+  background-color: #e7e7e7;
+  max-height: 200px;
+  width: 30%;
+  display: block;
+  margin: 20px;
+}
+
+ .prt{
+  display: block;
+  width: 100%;
+ }
+
+ .titulo{
+  font-size: 30px;
+  margin: 10px;
+  margin-bottom: 15px;
+
+ }
+
+ h5{
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+ }
+
+ .tech{
+  font-size: 15px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  list-style:circle;
+ }
+
+.date{
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+
 @keyframes fade {
     from {opacity: .4;}
     to{opacity:1;}
