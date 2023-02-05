@@ -6,12 +6,22 @@ const navSlide = () => {
     let menu = document.querySelector(".links")
     let navlinks = document.querySelectorAll(".links li")
 
-function animatebars(){
-    NAV1.classList.toggle("activeparts_NAV1")
-    NAV2.classList.toggle("activeparts_NAV2")
-    NAV3.classList.toggle("activeparts_NAV3")
-
+    document.getElementById("NAV").addEventListener("click", () => {
+        NAV1.classList.toggle("activeparts_NAV1")
+        NAV2.classList.toggle("activeparts_NAV2")
+        NAV3.classList.toggle("activeparts_NAV3")
+        menu.classList.toggle("menuactive")
+        navlinks.forEach((link, index)=> {
+            if(link.style.animation){
+                link.style.animation = ""
+            } else{
+                link.style.animation = `navlinkfrade 500ms ease forwards ${(index / 7)+ 0.5 }s`
+            }
+        })
+    })
 }
+
+navSlide()
 
 // Hero
 
@@ -48,20 +58,4 @@ function muestraSlides(n){
 
     slides[indice-1].style.display = 'block';
     barras[indice-1].className += ' active';
-
-    document.getElementById("NAV").addEventListener("click", () => {
-        NAV1.classList.toggle("activeparts_NAV1")
-        NAV2.classList.toggle("activeparts_NAV2")
-        NAV3.classList.toggle("activeparts_NAV3")
-        menu.classList.toggle("menuactive")
-        navlinks.forEach((link, index)=> {
-            if(link.style.animation){
-                link.style.animation = ""
-            } else{
-                link.style.animation = `navlinkfrade 500ms ease forwards ${(index / 7)+ 0.5 }s`
-            }
-        })
-    })
 }
-
-navSlide()

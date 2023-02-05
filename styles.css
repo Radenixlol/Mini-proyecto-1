@@ -1,12 +1,3 @@
-:root {
-    --negro: #393939;
-    --blanco: #ececec;
-    --sombra-ppal: #c9c9c9;
-    --sombra-sec: #ffffff;
-    --borde-negro: #00000050;
-    --marcado: rgb(127, 195, 255);
-}
-
 *{
     margin: 0;
     border: 0;
@@ -121,14 +112,6 @@ main{
     margin: auto; 
 }
 
-
-
-/* .miSlider
-    display: none;
-    transition: 2s;
-    max-height: 100vh;
-} */
-
 .miSlider img{
     width: 100%;
     max-height: 100vh;
@@ -189,12 +172,12 @@ main{
     animation-duration: 1.5s;    
 }
 
+/* Experience */
+
 @keyframes fade {
     from {opacity: .4;}
     to{opacity:1;}
 }
-
- /* Experience */
 
  @keyframes animacion{
     0%{
