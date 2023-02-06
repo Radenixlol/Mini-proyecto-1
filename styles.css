@@ -402,6 +402,80 @@ h5 {
 
 /*Contact Me*/
 
+.Contact{
+  padding: 100px 15px; 
+ }
+
+ .titulo-contacto{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: #d3cdcd;
+  text-decoration-thickness: 5px;
+ }
+
+ .forms{
+  max-width: 1200px;
+  margin: auto;
+ }
+
+ .forms .fila{
+  margin-bottom: 15px;
+ }
+
+ .forms .mitad{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .forms input, .forms textarea{
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  border: 1px solid #817a7a;
+ }
+
+ .forms .mitad input{
+  width: 48%;
+ }
+
+ .forms .input-full{
+  width: 100%;
+ }
+
+ .forms .envio{
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  transition: 500ms;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+ }
+
+ .forms .envio:hover{
+  background-color: #817a7a;
+  color: white;
+ }
+
+ footer{
+  background-color: rgb(58, 15, 78);
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+ }
+
+ footer a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 5px;
+  font-size: 26px;
+ }
+
 @media (max-width: 1024px) {
   body {
     overflow-x: hidden;
@@ -515,80 +589,3 @@ h5 {
     width: 100%;
   }
 }
-
-
- /*Contacto*/
-
- .Contact{
-  padding: 100px 15px; 
- }
-
- .titulo-contacto{
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 22px;
-  color: rgb(0, 0, 0);
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-decoration-color: #d3cdcd;
-  text-decoration-thickness: 5px;
- }
-
- .forms{
-  max-width: 1200px;
-  margin: auto;
- }
-
- .forms .fila{
-  margin-bottom: 15px;
- }
-
- .forms .mitad{
-  display: flex;
-  justify-content: space-between;
- }
-
- .forms input, .forms textarea{
-  padding: 20px;
-  border-radius: 20px;
-  border: none;
-  border: 1px solid #817a7a;
- }
-
- .forms .mitad input{
-  width: 48%;
- }
-
- .forms .input-full{
-  width: 100%;
- }
-
- .forms .envio{
-  display: block;
-  margin: auto;
-  cursor: pointer;
-  transition: 500ms;
-  padding: 10px 15px;
-  font-size: 18px;
-  font-weight: bold;
- }
-
- .forms .envio:hover{
-  background-color: #817a7a;
-  color: white;
- }
-
- footer{
-  background-color: rgb(58, 15, 78);
-  color: white;
-  text-align: center;
-  padding: 30px 0;
- }
-
- footer a{
-  text-decoration: none;
-  color: white;
-  display: inline-block;
-  margin: 5px;
-  font-size: 26px;
- }
