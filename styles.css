@@ -399,3 +399,112 @@ main{
   }
 }
 
+
+ /* Skills*/
+.Skills{
+    width: 40%;
+    min-width: 590px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.box-k{
+    width: 100%;
+    padding: 30px 30px 50px;
+    background: linear-gradient(450deg, darkblue, black);
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+  }
+
+.box-k *{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.h2{
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.skill:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.detalles{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.barra{
+    position: relative;
+    border: 1px solid cyan;
+    border-radius: 20px;
+}
+
+.barra div{
+  position: relative;
+  width: 0;
+  height: 8px;
+  border-radius: 10px;
+  background-color: cyan;
+}
+
+.barra-20{
+    animation: barra-20 2s forwards;
+}
+
+@keyframes barra-20 {
+  100%{
+    width: 20%;
+  }
+}
+
+.barra-40{
+  animation: barra-40 2s forwards;
+}
+
+@keyframes barra-40 {
+100%{
+  width: 40%;
+}
+}
+
+.barra-60{
+  animation: barra-60 2s forwards;
+}
+
+@keyframes barra-60 {
+100%{
+  width: 60%;
+}
+}
+
+.barra-80{
+  animation: barra-80 2s forwards;
+}
+
+@keyframes barra-80 {
+100%{
+  width: 80%;
+}
+}
+
+.barra-100{
+  animation: barra-100 2s forwards;
+}
+
+@keyframes barra-100 {
+100%{
+  width: 100%;
+}
+}
